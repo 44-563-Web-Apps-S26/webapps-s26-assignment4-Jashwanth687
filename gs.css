@@ -1,0 +1,66 @@
+.speech {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 17px;
+    color: black;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.song {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    color: black;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.direction {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: #f5f5dc;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.direction:hover {
+    background-color: #2f4f4f;
+    color: #ffffff;
+}
+
+.name {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Character styles */
+.kok {
+    color: #b22222;
+}
+
+.poo {
+    color: #1e40af;
+}
+
+/* Group styles */
+.chorus {
+    color: #006d77;
+    font-weight: 700;
+}
+
+.girls {
+    color: #c2185b;
+    font-style: italic;
+}
+
+.boys {
+    color: #1565c0;
+}
+
+.all {
+    color: #4e342e;
+    font-weight: 700;
+}
