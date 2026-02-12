@@ -34,6 +34,17 @@
     color: black;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 4px 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: box-shadow 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
+}
+
+.name:hover {
+    border-color: #ff6f61;
+    background-color: #fff8e1;
+    box-shadow: 0 0 14px 4px rgba(0, 173, 181, 0.7);
 }
 
 /* Character styles */
