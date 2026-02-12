@@ -113,3 +113,61 @@
 .cast-table tbody tr:nth-child(odd) {
     background-color: #ffffff;
 }
+
+.title-icon {
+    color: #c27c0e;
+    margin-right: 8px;
+}
+
+.scene-image {
+    display: block;
+    width: 70%;
+    max-width: 520px;
+    margin: 18px auto 10px auto;
+    border: 4px solid #2f4f4f;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.scene-caption {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #37474f;
+    margin-bottom: 24px;
+}
+
+.bottom-nav {
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.bottom-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #2f4f4f;
+    border-top: 3px solid #ff6f61;
+    border-bottom: 3px solid #ff6f61;
+}
+
+.bottom-nav li {
+    margin: 0;
+}
+
+.bottom-nav a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.bottom-nav a:hover {
+    background-color: #ff6f61;
+    color: #1f1f1f;
+}
